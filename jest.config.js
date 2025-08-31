@@ -5,7 +5,8 @@ export default {
   '!src/**/*.d.ts',
   '!src/**/protocols/**', 
   '!src/**/index.ts',
-  "!src/**/**/**/signup-protocols.ts"
+  "!src/**/**/**/signup-protocols.ts",
+  "!src/**/**/**/db-add-account-protocols.ts"
   ],
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
